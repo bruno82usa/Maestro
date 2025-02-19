@@ -1,0 +1,3 @@
+1 1 http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip
+1 1 http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip
+1 1 http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip

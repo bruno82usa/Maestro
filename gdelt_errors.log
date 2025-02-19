@@ -1,0 +1,26 @@
+2025-02-10 02:52:21,028 - INFO - Iniciando o processo de ETL do GDELT...
+2025-02-10 02:52:21,028 - INFO - Lendo a lista de arquivos de: /home/bruno/Documentos/Maestro/03/gdelt2.txt
+2025-02-10 02:52:21,029 - INFO - Conteúdo do arquivo lido. Tamanho: 248 caracteres.
+2025-02-10 02:52:21,029 - INFO - Filtrando dados dos últimos 5 anos: de 20200212 a 20250210
+2025-02-10 02:52:21,029 - INFO - Total de URLs a serem processadas: 3
+2025-02-10 02:52:21,029 - INFO - Processando lote 1/1 (3 URLs)
+2025-02-10 02:52:21,029 - INFO - Processando URL: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip
+2025-02-10 02:52:21,029 - INFO - Baixando arquivo de: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip (tentativa 1/5)
+2025-02-10 02:52:21,284 - INFO - Download de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip concluído com sucesso.
+2025-02-10 02:52:21,352 - INFO - Arquivo CSV '20150218224500.translation.export.CSV' lido (eventos de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip).
+2025-02-10 02:52:21,618 - INFO - Eventos de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.export.CSV.zip: Inseridos/Atualizados 0 documentos, 0 modificados.
+2025-02-10 02:52:21,620 - INFO - Progresso: 1/3 (33.33%)
+2025-02-10 02:52:21,620 - INFO - Processando URL: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip
+2025-02-10 02:52:21,620 - INFO - Baixando arquivo de: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip (tentativa 1/5)
+2025-02-10 02:52:21,655 - INFO - Download de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip concluído com sucesso.
+2025-02-10 02:52:21,727 - WARNING - Nenhum CSV encontrado em: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip
+2025-02-10 02:52:21,727 - ERROR - Erro ao inserir dados de menções de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.mentions.CSV.zip no MongoDB: 'NoneType' object has no attribute 'to_dict'
+2025-02-10 02:52:21,730 - INFO - Progresso: 2/3 (66.67%)
+2025-02-10 02:52:21,730 - INFO - Processando URL: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip
+2025-02-10 02:52:21,730 - INFO - Baixando arquivo de: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip (tentativa 1/5)
+2025-02-10 02:52:21,767 - INFO - Download de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip concluído com sucesso.
+2025-02-10 02:52:22,382 - INFO - Arquivo CSV '20150218224500.translation.gkg.csv' lido (GKG de http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip).
+2025-02-10 02:52:22,382 - INFO - Detectado GKG V2.0/V2.1
+2025-02-10 02:52:22,383 - ERROR - Coluna GKGRECORDID não encontrada no arquivo GKG: http://data.gdeltproject.org/gdeltv2/20150218224500.translation.gkg.csv.zip
+2025-02-10 02:52:22,384 - INFO - Progresso: 3/3 (100.00%)
+2025-02-10 02:52:24,385 - INFO - Processamento concluído.
